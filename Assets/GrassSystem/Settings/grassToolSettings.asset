@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faf325f132937124a993757890c83822, type: 3}
+  m_Name: grassToolSettings
+  m_EditorClassIdentifier: 
+  layerBlocking:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  layerFading: 0100000000000000
+  VertexColorSettings: 0
+  VertexFade: 0
+  sizeWidth: 0.545
+  sizeLength: 0.603
+  adjustWidth: 0
+  adjustLength: 0
+  adjustWidthMax: 1.66
+  adjustHeightMax: 1.65
+  reprojectOffset: 1
+  rangeR: 0.083
+  rangeG: 0.148
+  rangeB: 0.113
+  AdjustedColor: {r: 0.4901961, g: 0.8196079, b: 0.5058824, a: 1}
+  paintBlockMask:
+    serializedVersion: 2
+    m_Bits: 0
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 1
+  paintMask:
+    serializedVersion: 2
+    m_Bits: 1
+  brushSize: 9.1
+  brushFalloffSize: 0.8
+  Flow: 0.1
+  density: 5.3
+  normalLimit: 0.106
+  grassAmountToGenerate: 50000
+  generationDensity: 0.616
