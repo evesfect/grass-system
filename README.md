@@ -1,19 +1,19 @@
 # GPU-Accelerated Grass System for Unity
 
-A high-performance compute shader-based grass rendering system optimized for RTS and top-down games. Achieve dense grass coverage without sacrificing framerate.
+A high-performance compute shader-based grass rendering system optimized for dense grass rendering. Also achieves reliable high performance on integrated GPUs.
 
 ## Features
 
--   **Compute shader-based rendering** - GPU-driven blade generation and animation (similar to the implementation of Sucker Punch: [https://www.youtube.com/watch?v=Ibe1JBF5i5Y](https://www.youtube.com/watch?v=Ibe1JBF5i5Y "https://www.youtube.com/watch?v=Ibe1JBF5i5Y"))
+-   **Compute shader-based rendering** - GPU-driven blade generation and animation (similar to the implementation of Sucker Punch Studios: [https://www.youtube.com/watch?v=Ibe1JBF5i5Y](https://www.youtube.com/watch?v=Ibe1JBF5i5Y "https://www.youtube.com/watch?v=Ibe1JBF5i5Y")) Default grass settings chosen for top down view, where most grass systems fail most due to lack of density and coverage. However, blade size and width can be adjusted to achieve a more realistic look from side angles. 
 -   **Wind system** - Texture-based wind sway with wind gust support
 
 https://github.com/user-attachments/assets/1ab0d59c-7cd8-433e-a98c-6b64e6a614ea
 
--   **Spatial culling** - Hierarchical frustum culling for optimal performance
+-   **Spatial culling** - Hierarchical frustum culling
 
 https://github.com/user-attachments/assets/80b9995d-f5d9-4668-aac2-4a6cebebdfd5
 
--   **Editor painting tools** - Intuitive brush-based grass placement with layers
+-   **Editor painting tools** - Brush-based grass placement with layers
 -   **Customizable appearance** - Per-layer colors, dimensions, and density control
 -   **Interactive grass** - Responds to shader interactors for gameplay effects
 
@@ -22,10 +22,9 @@ https://github.com/user-attachments/assets/7ed503d4-0e2b-43b3-9ad2-04b9d960e7f1
 
 ## Performance
 
-Designed for dense grass placement on small to medium-sized maps typical of RTS games, supports low-end hardware:
+Designed for dense grass placement on small to medium-sized maps, also supports low-end hardware:
 
 -   60,000+ grass blades rendered at 60+ FPS on Intel Iris XE graphics
--   Shadows enabled, alongside other scene assets
 -   Spatial culling system scales to larger maps with distance-based LOD
 
 ## Setup Instructions
