@@ -7,17 +7,17 @@ A high-performance compute shader-based grass rendering system optimized for RTS
 -   **Compute shader-based rendering** - GPU-driven blade generation and animation (similar to the implementation of Sucker Punch: [https://www.youtube.com/watch?v=Ibe1JBF5i5Y](https://www.youtube.com/watch?v=Ibe1JBF5i5Y "https://www.youtube.com/watch?v=Ibe1JBF5i5Y"))
 -   **Wind system** - Texture-based wind sway with wind gust support
 
-    Your browser does not support the video tag.
+    <video src="media/vid1.mp4" controls width="600"></video>
 
 -   **Spatial culling** - Hierarchical frustum culling for optimal performance
 
-    Your browser does not support the video tag.
+    <video src="media/vid2.mp4" controls width="600"></video>
 
 -   **Editor painting tools** - Intuitive brush-based grass placement with layers
 -   **Customizable appearance** - Per-layer colors, dimensions, and density control
 -   **Interactive grass** - Responds to shader interactors for gameplay effects
 
-     Your browser does not support the video tag.
+    <video src="media/vid3.mp4" controls width="600"></video>
 
 ## Performance
 
