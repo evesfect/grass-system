@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/7ed503d4-0e2b-43b3-9ad2-04b9d960e7f1
 
 Designed for dense grass placement on small to medium-sized maps, also supports low-end hardware:
 
--   60,000+ grass blades rendered at 60+ FPS on Intel Iris XE graphics
+-   60,000+ grass blades rendered at 60+ FPS on Intel Iris XE graphics (integrated)
 -   Spatial culling system scales to larger maps with distance-based LOD
 
 ## Setup Instructions
@@ -97,10 +97,6 @@ This is an improved version of the grass system by [Minionsart](https://www.patr
 -   Performance optimizations for dense placement scenarios
 -   Various quality-of-life improvements
 
-**Original System:** [Minionsart's Grass System](https://minionsart.github.io/tutorials/)**Enhanced by:** [@evesfect](https://github.com/evesfect)
+**Original System:** [Minionsart's Grass System](https://minionsart.github.io/tutorials/) **Enhanced by:** [@evesfect](https://github.com/evesfect)
 
 Further credits to [forkercat](https://gist.github.com/forkercat "https://gist.github.com/forkercat") and [NedMakesGames](https://github.com/NedMakesGames "https://github.com/NedMakesGames") for the contributions in the initial project
-
-## License
-
-See [LICENSE](LICENSE) file for details.
