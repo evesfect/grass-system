@@ -4,7 +4,7 @@ A high-performance compute shader-based grass rendering system optimized for den
 
 ## Features
 
--   **Compute shader-based rendering** - GPU-driven blade generation and animation (similar to the implementation of Sucker Punch Studios: [https://www.youtube.com/watch?v=Ibe1JBF5i5Y](https://www.youtube.com/watch?v=Ibe1JBF5i5Y "https://www.youtube.com/watch?v=Ibe1JBF5i5Y")) Default grass settings chosen for top down view, where most grass systems fail most due to lack of density and coverage. However, blade size and width can be adjusted to achieve a more realistic look from side angles. 
+-   **Compute shader-based rendering** - GPU-driven blade generation and animation (similar to the implementation of Sucker Punch Studios: [https://www.youtube.com/watch?v=Ibe1JBF5i5Y](https://www.youtube.com/watch?v=Ibe1JBF5i5Y "https://www.youtube.com/watch?v=Ibe1JBF5i5Y")) Default grass settings chosen for top down view, where most grass systems fail mostly due to lack of density and coverage. However, blade size and width can be adjusted to achieve a more realistic look from side angles. 
 -   **Wind system** - Texture-based wind sway with wind gust support
 
 https://github.com/user-attachments/assets/1ab0d59c-7cd8-433e-a98c-6b64e6a614ea
@@ -32,7 +32,7 @@ Designed for dense grass placement on small to medium-sized maps, also supports 
 ### Requirements
 
 -   Unity 6000.0.34f1 or later
--   GPU with Comput Shader Support
+-   GPU with Compute Shader Support
 -   URP render pipeline
 
 ### Installation
